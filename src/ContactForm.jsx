@@ -59,6 +59,7 @@ const ContactForm = () => {
   return (
     <div className="App">
       <div className="container">
+        <h1 className='contact-heading'>Contact Us</h1>
         <div className="row">
           <div className="col-12 text-center">
             <div className="contactForm">
