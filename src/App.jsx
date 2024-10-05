@@ -3,10 +3,9 @@ import ContactForm from './ContactForm';
 const App = () => {
   return (
     <div className='App'>
-      <div className='container'>
-        <h1 className='contact-heading'>Contact Us</h1>
+      {/* <div className='container'> */}
         <ContactForm />
-      </div>
+      {/* </div> */}
     </div>
   );
 };
