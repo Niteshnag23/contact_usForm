@@ -1,0 +1,236 @@
+body {
+  background-color: white;
+  /* background: #f55c5c; */
+  background-repeat: no-repeat;
+  background-size: cover;
+  
+  /* color: #fff; */
+  /* font-family: 'Roboto', sans-serif; */
+  /* font-weight: 100; */
+  height: 100vh;
+  margin: 0;
+  line-height: 26px;
+  margin: 0;
+}
+
+
+.App {
+  height: 75vh;
+  margin-top: 5vh;
+}
+
+
+form {
+  margin-top: 20px;
+}
+
+.formRow {
+  margin: 10px 0 20px 0;
+}
+
+.formInput {
+  padding: 15px 10px;
+}
+
+.errorMessage {
+  color: #f45532;
+  font-size: 14px;
+  margin: 0;
+  padding: 0;
+}
+
+.submit-btn {
+  padding: 15px 50px;
+  border-radius: 10px;
+  margin-bottom: 25px;
+}
+
+@media (max-width: 768px) {
+  .submit-message {
+    width: 125px;
+    margin-left: 200px;
+  }
+}
+
+.content-below {
+  background-color: white; /* White background for content below the image */
+  padding: 20px; /* Add some padding if needed */
+  min-height: 25vh; /* Ensures it occupies some height below the image */
+}
+
+body {
+  background-image: url("https://media.istockphoto.com/id/1416335096/photo/businessman-hand-holding-smart-phone-with-icon-mobile-phone-mail-telephone-and-address.jpg?b=1&s=612x612&w=0&k=20&c=fIXz-Nx5jSFo6g17QAMnmDnCYDxbCT21kU10RZO1k1E=");
+  background-repeat: no-repeat;
+  /* background-size: cover; */
+  background-position: top;
+  height: 512px;
+  
+
+  margin: 0;
+  line-height: 16px;
+}
+
+.App {
+  height: 55vh;
+  margin-top: vh;
+  text-align: center;
+}
+
+.content-below {
+  background-color: white;
+  padding: 20px;
+  min-height: 25vh;
+}
+
+.map-container {
+  margin-top: 20px;
+  height: 400px;
+  width: 100%;
+}
+
+iframe {
+  width: 100%;
+  height: 100%;
+  border: 0;
+}
+
+form {
+  margin-top: 20px;
+}
+
+.formRow {
+  margin: 10px 0 20px 0;
+}
+
+.formInput {
+  padding: 15px 10px;
+}
+
+.errorMessage {
+  color: #f45532;
+  font-size: 14px;
+  margin: 0;
+  padding: 0;
+}
+
+.submit-btn {
+  padding: 15px 50px;
+  border-radius: 10px;
+  margin-bottom: 25px;
+}
+
+@media (max-width: 768px) {
+  .submit-message {
+    width: 125px;
+    margin-left: 200px;
+  }
+}
+
+/* Styling for the entire App */
+.App {
+  font-family: Arial, sans-serif;
+}
+
+/* Upper section with background image */
+.background-section {
+  height: 45vh; /* Covers 45% of the viewport height */
+  background-image: url('your-image-url-here.jpg'); /* Replace with your background image URL */
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.contact-heading {
+  color: white;
+  font-size: 36px;
+  font-weight: bold;
+}
+
+/* Content section with white background */
+.content-section {
+  background-color: white;
+  padding: 50px 0;
+  height: 55vh; /* Covers the remaining 55% of the viewport */
+}
+
+/* Contact Form Styles */
+.contact-form-container {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #f9f9f9;
+  border-radius: 8px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.form-group {
+  margin-bottom: 15px;
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+.form-group input,
+.form-group textarea {
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+}
+
+button {
+  padding: 10px 15px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+  width: 100%;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+/* Alert styling */
+.alert {
+  margin-top: 20px;
+  padding: 10px;
+  border-radius: 4px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.alert.success {
+  background-color: #d4edda;
+  color: #155724;
+}
+
+.alert.error {
+  background-color: #f8d7da;
+  color: #721c24;
+}
+
+/* Contact info styling */
+.contact-info {
+  text-align: center;
+  margin-top: 30px;
+  font-size: 18px;
+  color: black;
+}
+
+.contact-info a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+.contact-info a:hover {
+  text-decoration: underline;
+}
