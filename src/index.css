@@ -1,8 +1,9 @@
 body {
-  background-color: white;
+  background-color: #2c3e50;
   /* background: #f55c5c; */
   background-repeat: no-repeat;
   background-size: cover;
+  background-size: fixed;
   
   /* color: #fff; */
   /* font-family: 'Roboto', sans-serif; */
@@ -15,7 +16,7 @@ body {
 
 
 .App {
-  height: 75vh;
+  height: 100vh;
   margin-top: 5vh;
 }
 
@@ -59,11 +60,11 @@ form {
 }
 
 body {
-  background-image: url("https://media.istockphoto.com/id/1416335096/photo/businessman-hand-holding-smart-phone-with-icon-mobile-phone-mail-telephone-and-address.jpg?b=1&s=612x612&w=0&k=20&c=fIXz-Nx5jSFo6g17QAMnmDnCYDxbCT21kU10RZO1k1E=");
+  /* background-image: url("https://media.istockphoto.com/id/1416335096/photo/businessman-hand-holding-smart-phone-with-icon-mobile-phone-mail-telephone-and-address.jpg?b=1&s=612x612&w=0&k=20&c=fIXz-Nx5jSFo6g17QAMnmDnCYDxbCT21kU10RZO1k1E="); */
   background-repeat: no-repeat;
-  /* background-size: cover; */
+  background-size: cover;
   background-position: top;
-  height: 512px;
+  height: 100vh;
   
 
   margin: 0;
@@ -71,8 +72,8 @@ body {
 }
 
 .App {
-  height: 55vh;
-  margin-top:2vh;
+  height: 100vh;
+  margin-top:0vh;
   text-align: center;
 }
 
@@ -81,10 +82,14 @@ body {
   padding: 20px;
   min-height: 25vh;
 }
+.container{
+  height: 524px;
+  padding-top: 112px;
+}
 
 .map-container {
-  margin-top: 20px;
-  height: 400px;
+  margin-top: 11px;
+  height: 350px;
   width: 100%;
 }
 
@@ -134,10 +139,10 @@ form {
 /* Upper section with background image */
 .background-section {
   height: 45vh; /* Covers 45% of the viewport height */
-  background-image: url('your-image-url-here.jpg'); /* Replace with your background image URL */
+  /* background-image: url('your-image-url-here.jpg'); Replace with your background image URL */
   background-size: cover;
   background-position: center;
-  display: flex;
+  display: fixed;
   justify-content: center;
   align-items: center;
 }
@@ -158,6 +163,7 @@ form {
 /* Contact Form Styles */
 .contact-form-container {
   max-width: 600px;
+  height: 0vh;
   margin: 0 auto;
   padding: 20px;
   background-color: #f9f9f9;
@@ -223,7 +229,7 @@ button:hover {
   text-align: center;
   margin-top: 30px;
   font-size: 18px;
-  color: black;
+  color: rgb(255, 255, 255);
 }
 
 .contact-info a {
