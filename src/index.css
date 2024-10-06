@@ -8,7 +8,7 @@ body {
   line-height: 16px;
 }
 
-.form-container {
+.Contactus_form-container {
   height: auto;
   margin-top: 0;
   text-align: center;
@@ -24,7 +24,7 @@ body {
   align-items: center;
 }
 
-.hero-title {
+.Contact_hero-title {
   color: white;
   font-size: 36px;
   margin: 15px;
@@ -37,7 +37,7 @@ body {
   height: 55vh;
 }
 
-.form-box {
+.Contactus_form-box {
   max-width: 837px;
   margin: 0 auto;
   padding: 20px;
@@ -45,27 +45,27 @@ body {
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
 }
 
-.input-row {
+.Contactus_row{
   margin-bottom: 15px;
   margin-bottom: 15px;
   display: flex; /* Added flex to enable responsive behavior */
   flex-wrap: wrap; /* Allow items to wrap */
 }
 
-.input-row > div {
+.Contactus_row > div {
   flex: 1; /* Allow child divs to grow equally */
   min-width: 250px; /* Set a minimum width for responsiveness */
   margin: 5px; /* Added margin for spacing */
 }
 
-.input-label {
+/* .input-label {
   display: block;
   margin-bottom: 5px;
   font-weight: bold;
-}
+} */
 
-.text-input,
-.textarea-input {
+.Contactus_text-input,
+.Contactus_textarea-input {
   width: 100%;
   padding: 10px;
   font-size: 16px;
@@ -73,7 +73,7 @@ body {
   border: 1px solid #7d7c7c9f;
 }
 
-.submit-btn {
+.Contactus_submit-btn {
   padding: 10px 15px;
   background-color: #007bff;
   color: white;
@@ -85,12 +85,12 @@ body {
   margin-top: 10px; /* Add space above the button */
 }
 
-.submit-btn:hover {
+.Contactus_submit-btn:hover {
   background-color: #0056b3;
 }
 
 /* Alert styles */
-.alert {
+.Contactus_alert {
   margin-top: 20px;
   padding: 10px;
   border-radius: 4px;
@@ -98,17 +98,17 @@ body {
   text-align: center;
 }
 
-.alert-success {
+.Contactus_alert-success {
   background-color: #d4edda;
   color: #155724;
 }
 
-.alert-error {
+.Contactus_alert-error {
   background-color: #f8d7da;
   color: #721c24;
 }
 
-.map {
+.Contactus_map {
   margin-top: 20px;
   height: 350px;
   width: 100%;
@@ -120,7 +120,7 @@ iframe {
   border: 0;
 }
 
-.contact-info {
+.contactus-info {
   text-align: center;
   margin: 40px;
   font-size: 18px;
@@ -128,17 +128,17 @@ iframe {
   
 }
 
-.contact-info a {
+.contactus-info a {
   color:white;
   text-decoration: none;
 }
 
-.contact-info a:hover {
+.contactus-info a:hover {
   text-decoration: underline;
 }
 
 @media (max-width: 768px) {
-  .submit-btn {
+  .Contactus_submit-btn {
     width: 100%; /* Make button full width on mobile */
   }
 }
