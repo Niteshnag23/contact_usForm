@@ -45,15 +45,15 @@ const ContactForm = () => {
   };
 
   return (
-    <div className="form-container">
-      <div className="container">
-        <div className="row">
-          <div className="col-12 text-center">
-            <h1 className="hero-title">Contact Us</h1>
-            <div className="form-box">
-              <form id="contact-form" onSubmit={handleSubmit(onSubmit)} noValidate>
-                <div className="row input-row">
-                  <div className="col-6">
+    <div className="Contqactus_form-container">
+      <div className="Contactus_container">
+        <div className="Contactus_row">
+          <div className="Contactus_col-12 text-center">
+            <h1 className="Contact_hero-title">Contact Us</h1>
+            <div className="Contactus_form-box">
+              <form id="contactus-form" onSubmit={handleSubmit(onSubmit)} noValidate>
+                <div className="Contactus_row">
+                  <div className="Contactus_col-6">
                     <input
                       type="text"
                       name="name"
@@ -67,14 +67,14 @@ const ContactForm = () => {
                           message: 'Please use 30 characters or less',
                         },
                       })}
-                      className="text-input"
+                      className="Contactus_text-input"
                       placeholder="Name"
                     />
                     {errors.name && (
-                      <span className="alert-error">{errors.name.message}</span>
+                      <span className="Contactus_alert-error">{errors.name.message}</span>
                     )}
                   </div>
-                  <div className="col-6">
+                  <div className="Contactus_col-6">
                     <input
                       type="email"
                       name="email"
@@ -82,16 +82,16 @@ const ContactForm = () => {
                         required: true,
                         pattern: /^[a-zA-Z0-9.!#$%&’*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:\.[a-zA-Z0-9-]+)*$/,
                       })}
-                      className="text-input"
+                      className="Contactus_text-input"
                       placeholder="Email address"
                     />
                     {errors.email && (
-                      <span className="alert-error">Please enter a valid email address</span>
+                      <span className="Contactus_alert-error">Please enter a valid email address</span>
                     )}
                   </div>
                 </div>
-                <div className="row input-row">
-                  <div className="col">
+                <div className="Contactus_row">
+                  <div className="Contactus_col">
                     <input
                       type="text"
                       name="subject"
@@ -105,30 +105,30 @@ const ContactForm = () => {
                           message: 'Subject cannot exceed 75 characters',
                         },
                       })}
-                      className="text-input"
+                      className="Contactus_text-input"
                       placeholder="Subject"
                     />
                     {errors.subject && (
-                      <span className="alert-error">{errors.subject.message}</span>
+                      <span className="Contactus_alert-error">{errors.subject.message}</span>
                     )}
                   </div>
                 </div>
-                <div className="row input-row">
-                  <div className="col">
+                <div className="Contactus_row">
+                  <div className="Contactus_col">
                     <textarea
                       rows={3}
                       name="message"
                       {...register('message', { required: true })}
-                      className="textarea-input"
+                      className="Contactus_textarea-input"
                       placeholder="Message"
                     />
                     {errors.message && (
-                      <span className="alert-error">Please enter a message</span>
+                      <span className="Contactus_alert-error">Please enter a message</span>
                     )}
                   </div>
                 </div>
 
-                <button className="submit-btn" disabled={disabled} type="submit">
+                <button className="Contactus_submit-btn" disabled={disabled} type="submit">
                   Submit
                 </button>
               </form>
@@ -137,7 +137,7 @@ const ContactForm = () => {
         </div>
       </div>
 
-      <div className="map">
+      <div className="Contactus_map">
         <iframe
           src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d14548.208061321366!2d81.32319769999999!3d19.0631655!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a2c2f9fef25c30f%3A0x1f477973b8ec60!2sDantewada%2C%20Chhattisgarh!5e0!3m2!1sen!2sin!4v1696192434087!5m2!1sen!2sin"
           allowFullScreen=""
@@ -147,13 +147,13 @@ const ContactForm = () => {
       </div>
 
       {/* Contact Info Section */}
-      <div className="contact-info">
+      <div className="contactus-info">
         <p>Email: <a href="mailto:circuitdantewada@example.com">circuitdantewada@example.com</a></p>
         <p>Mobile: <a href="tel:+919876543210">+91 98765 43210</a></p>
       </div>
 
       {alertInfo.display && (
-        <div className={`alert ${alertInfo.type === 'success' ? 'alert-success' : 'alert-error'}`}>
+        <div className={`Contactus_alert ${alertInfo.type === 'success' ? 'Contactus_alert-success' : 'Contactus_alert-error'}`}>
           {alertInfo.message}
         </div>
       )}
